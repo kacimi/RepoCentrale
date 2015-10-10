@@ -4,7 +4,8 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <html>
 <head>
-<link href="<spring:url value="/ressources/css/bootstrap.css"></spring:url>" rel="stylesheet" media="screen">
+<link href="<spring:url value="css/bootstrap.css"></spring:url>" rel="stylesheet" media="screen" />
+<link href="${pageContext.request.contextPath}/ressources/css" rel="stylesheet"/>     
        <title>Nouvelle Demande</title>
 </head>
 <body>
